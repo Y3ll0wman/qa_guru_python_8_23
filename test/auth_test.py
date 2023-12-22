@@ -13,17 +13,17 @@ def test_google_auth():
         pass
     with allure.step("Выбираем способ авторизации через Google"):
         pass
-    with allure.step("Авторизуемся как пользователь Y3ll0wman"):
-        with allure.step("Вводим пароль TestQA"):
+    with allure.step("Авторизуемся как пользователь Mr. random"):
+        with allure.step("Вводим логин random_user@gmail.com"):
             pass
-        with allure.step("Вводим логин Y3ll0wman@gmail.com"):
+        with allure.step("Вводим пароль random_password"):
             pass
         with allure.step("Нажимаем кнопку Войти"):
             pass
     with allure.step("Проверяем, что авторизовались успешно"):
         pass
     with allure.step("Проверяем, что данные из профиля обновились из Google"):
-        with allure.step("Имя: Y3ll0wman"):
+        with allure.step("Имя: Mr. random"):
             pass
-        with allure.step("Email: Y3ll0wman@gmail.com"):
+        with allure.step("Email: random_user@gmail.com"):
             pass
